@@ -8,9 +8,10 @@ import {
   ThumbnailDragLayer,
   useManagedFiles,
 } from '@pdftron/webviewer-react-toolkit';
+import fileSaver from 'file-saver';
 import React, { useState } from 'react';
 import './App.css';
-import { splitPages } from './utils';
+import { joinPages, splitPages } from './utils';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -36,6 +37,18 @@ function App() {
     setLoading(false);
   };
 
+  const handleDownloadPDF = async () => {
+    setLoading(true);
+
+    const file = await joinPages(files);
+    const blob = await file.fileObj.get();
+    const name = file.name;
+
+    fileSaver.saveAs(blob, name);
+
+    setLoading(false);
+  };
+
   return (
     <div className="app">
       <main className="app__main">
@@ -57,7 +70,9 @@ function App() {
           <Button disabled={loading} buttonStyle="borderless" onClick={handleLoadPDF}>
             {hasFiles ? 'Delete PDF' : 'Load PDF'}
           </Button>
-          <Button disabled={loading || !hasFiles}>Download PDF</Button>
+          <Button disabled={loading || !hasFiles} onClick={handleDownloadPDF}>
+            Download PDF
+          </Button>
         </ButtonGroup>
       </footer>
     </div>

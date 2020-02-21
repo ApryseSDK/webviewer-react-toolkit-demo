@@ -27,3 +27,36 @@ export async function splitPages(source: string): Promise<File[]> {
 
   return newFiles;
 }
+
+/**
+ * Joins multiple files into a single file. This is used for joining pages into
+ * a single file.
+ * @param files An array of files to join.
+ */
+export async function joinPages(files: File[]): Promise<File> {
+  const firstFile = files[0];
+
+  // Remove page number prefix added in `splitPages`.
+  const found = firstFile.name.match(/^\d+_(.+)/);
+  const name = found![1];
+
+  // Create a clone of the first page file since the next operation to add pages
+  // is a mutating operation, and we don't want to mutate the page file.
+  const clone = firstFile.clone({ name });
+
+  // For each file after the initial one (which was used already to create the
+  // clone) we insert that file as a new page into the clone documentObj. We use
+  // `updateDocumentObj` to let the clone know that a mutation is occuring on
+  // the documentObj so it can update the internal Blob.
+  for (let i = 1; i < files.length; i++) {
+    const file = files[i];
+    const document = await file.documentObj.get();
+    const pageNumbers = Array.from({ length: document.getPageCount() }, (_, k) => k + 1);
+
+    await clone.updateDocumentObj(async documentObj => {
+      await documentObj.insertPages(document, pageNumbers, documentObj.getPageCount() + 1);
+    });
+  }
+
+  return clone;
+}
