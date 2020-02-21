@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/webviewer-react-toolkit-demo/static/css/main.f280eaf8.chunk.css",
+    "main.js": "/webviewer-react-toolkit-demo/static/js/main.4baa3aca.chunk.js",
+    "main.js.map": "/webviewer-react-toolkit-demo/static/js/main.4baa3aca.chunk.js.map",
+    "runtime-main.js": "/webviewer-react-toolkit-demo/static/js/runtime-main.ed7de1e3.js",
+    "runtime-main.js.map": "/webviewer-react-toolkit-demo/static/js/runtime-main.ed7de1e3.js.map",
+    "static/css/2.918871c1.chunk.css": "/webviewer-react-toolkit-demo/static/css/2.918871c1.chunk.css",
+    "static/js/2.8a7c05d6.chunk.js": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js",
+    "static/js/2.8a7c05d6.chunk.js.map": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js.map",
+    "index.html": "/webviewer-react-toolkit-demo/index.html",
+    "precache-manifest.b683a3ea5267c538b5bd5ab4fb1f5eb0.js": "/webviewer-react-toolkit-demo/precache-manifest.b683a3ea5267c538b5bd5ab4fb1f5eb0.js",
+    "service-worker.js": "/webviewer-react-toolkit-demo/service-worker.js",
+    "static/css/2.918871c1.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/2.918871c1.chunk.css.map",
+    "static/css/main.f280eaf8.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/main.f280eaf8.chunk.css.map",
+    "static/js/2.8a7c05d6.chunk.js.LICENSE.txt": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed7de1e3.js",
+    "static/css/2.918871c1.chunk.css",
+    "static/js/2.8a7c05d6.chunk.js",
+    "static/css/main.f280eaf8.chunk.css",
+    "static/js/main.4baa3aca.chunk.js"
+  ]
+}
