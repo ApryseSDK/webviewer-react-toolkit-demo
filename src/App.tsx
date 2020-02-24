@@ -11,6 +11,7 @@ import {
 import fileSaver from 'file-saver';
 import React, { useState } from 'react';
 import './App.css';
+import { ThemeButton } from './ThemeButton';
 import { joinPages, splitPages } from './utils';
 
 function App() {
@@ -66,13 +67,16 @@ function App() {
         )}
       </main>
       <footer className="app__footer">
-        <ButtonGroup>
-          <Button disabled={loading} buttonStyle="borderless" onClick={handleLoadPDF}>
-            {hasFiles ? 'Delete PDF' : 'Load PDF'}
-          </Button>
-          <Button disabled={loading || !hasFiles} onClick={handleDownloadPDF}>
-            Download PDF
-          </Button>
+        <ButtonGroup centerMobile position="space-between">
+          <ThemeButton />
+          <ButtonGroup centerMobile>
+            <Button disabled={loading} buttonStyle="borderless" onClick={handleLoadPDF}>
+              {hasFiles ? 'Delete PDF' : 'Load PDF'}
+            </Button>
+            <Button disabled={loading || !hasFiles} onClick={handleDownloadPDF}>
+              Download PDF
+            </Button>
+          </ButtonGroup>
         </ButtonGroup>
       </footer>
     </div>
