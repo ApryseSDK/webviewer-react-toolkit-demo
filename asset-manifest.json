@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/webviewer-react-toolkit-demo/static/css/main.a1038430.chunk.css",
-    "main.js": "/webviewer-react-toolkit-demo/static/js/main.5f9536f3.chunk.js",
-    "main.js.map": "/webviewer-react-toolkit-demo/static/js/main.5f9536f3.chunk.js.map",
+    "main.css": "/webviewer-react-toolkit-demo/static/css/main.640da5c7.chunk.css",
+    "main.js": "/webviewer-react-toolkit-demo/static/js/main.5367668d.chunk.js",
+    "main.js.map": "/webviewer-react-toolkit-demo/static/js/main.5367668d.chunk.js.map",
     "runtime-main.js": "/webviewer-react-toolkit-demo/static/js/runtime-main.ed7de1e3.js",
     "runtime-main.js.map": "/webviewer-react-toolkit-demo/static/js/runtime-main.ed7de1e3.js.map",
-    "static/css/2.918871c1.chunk.css": "/webviewer-react-toolkit-demo/static/css/2.918871c1.chunk.css",
-    "static/js/2.8a7c05d6.chunk.js": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js",
-    "static/js/2.8a7c05d6.chunk.js.map": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js.map",
+    "static/css/2.85e97dff.chunk.css": "/webviewer-react-toolkit-demo/static/css/2.85e97dff.chunk.css",
+    "static/js/2.8a02a968.chunk.js": "/webviewer-react-toolkit-demo/static/js/2.8a02a968.chunk.js",
+    "static/js/2.8a02a968.chunk.js.map": "/webviewer-react-toolkit-demo/static/js/2.8a02a968.chunk.js.map",
     "index.html": "/webviewer-react-toolkit-demo/index.html",
-    "precache-manifest.450b64668e24a64f05208f59280b284c.js": "/webviewer-react-toolkit-demo/precache-manifest.450b64668e24a64f05208f59280b284c.js",
+    "precache-manifest.bd831e12c361b0a9e8b4b7412279a5a5.js": "/webviewer-react-toolkit-demo/precache-manifest.bd831e12c361b0a9e8b4b7412279a5a5.js",
     "service-worker.js": "/webviewer-react-toolkit-demo/service-worker.js",
-    "static/css/2.918871c1.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/2.918871c1.chunk.css.map",
-    "static/css/main.a1038430.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/main.a1038430.chunk.css.map",
-    "static/js/2.8a7c05d6.chunk.js.LICENSE.txt": "/webviewer-react-toolkit-demo/static/js/2.8a7c05d6.chunk.js.LICENSE.txt"
+    "static/css/2.85e97dff.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/2.85e97dff.chunk.css.map",
+    "static/css/main.640da5c7.chunk.css.map": "/webviewer-react-toolkit-demo/static/css/main.640da5c7.chunk.css.map",
+    "static/js/2.8a02a968.chunk.js.LICENSE.txt": "/webviewer-react-toolkit-demo/static/js/2.8a02a968.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ed7de1e3.js",
-    "static/css/2.918871c1.chunk.css",
-    "static/js/2.8a7c05d6.chunk.js",
-    "static/css/main.a1038430.chunk.css",
-    "static/js/main.5f9536f3.chunk.js"
+    "static/css/2.85e97dff.chunk.css",
+    "static/js/2.8a02a968.chunk.js",
+    "static/css/main.640da5c7.chunk.css",
+    "static/js/main.5367668d.chunk.js"
   ]
 }
