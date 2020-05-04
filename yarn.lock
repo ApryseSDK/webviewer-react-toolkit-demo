@@ -1092,10 +1092,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@pdftron/webviewer-react-toolkit@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@pdftron/webviewer-react-toolkit/-/webviewer-react-toolkit-0.2.1.tgz#3fdefa1f7954f50c292feaf28c4f632d8d454736"
-  integrity sha512-8dmtFCLRkljmCEATHjFhpxKx7CZj0N0tk+FpyNOUyr541s2msQOZH7L2ICei0BoezTksWOd4te9mb+kJgQ+WYw==
+"@pdftron/webviewer-react-toolkit@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@pdftron/webviewer-react-toolkit/-/webviewer-react-toolkit-0.5.0.tgz#cfee9a680186bdc7b09fcebedbe1e8ae0f54f498"
+  integrity sha512-6dOPqt8s43ZCZxPgLUU4S68jsSX+X3s4NbIxUIHrWfIGaTiNMCARqAbMMTFTatpHZUE67WTdvDsidxBpaE2JHg==
   dependencies:
     classnames "^2.2.6"
     react-dnd "^10.0.2"
